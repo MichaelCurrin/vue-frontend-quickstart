@@ -13,7 +13,7 @@
         <img src="https://raw.githubusercontent.com/github/explore/master/topics/vue/vue.png"
              alt="vue icon"
              title="Vue.js"
-             width="150" height="150" />
+             width="100" height="100" />
     </a>
 </div>
 
