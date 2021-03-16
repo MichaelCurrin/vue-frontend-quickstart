@@ -62,6 +62,15 @@ Vue is similar to React, but many including myself believe that Vue is easier to
 See my [Resources](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/vue/) page to learn more about Vue.
 
 
+## Related projects
+
+More of my templates:
+
+- [![MichaelCurrin - preact-frontend-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=preact-frontend-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/preact-frontend-quickstart) - Preact with no CLI.
+- [![MichaelCurrin - vue-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-quickstart) - Vue with a CLI.
+- [![MichaelCurrin - react-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-quickstart) - React with a CLI.
+
+
 ## Developer notes
 
 ### Formatting
