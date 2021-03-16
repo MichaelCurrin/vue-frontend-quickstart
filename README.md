@@ -110,7 +110,7 @@ If you want to avoid structuring your project as a Node project but you want som
 - Deno replaces Node. 
 - No need for `package.json`.
 - Deno can be used to format and lint code - no external dependencies needed.
-- Deno can be used to bundle multiple JS files, without installing Webpack. You may run into complexity with adding support for `.vue` files though, as Deno doesn't support them.
+- Deno can be used to bundle multiple JS files, without installing Webpack. You may run into complexity with adding support for `.vue` files though, as Deno doesn't support them. Or you need to restructure your components and views as `.js` files.
 - Deno doesn't support minification. But `npx esbuild --minify ...` is a great choice that is modern and performant.
 - But you'll probably want something like `make` and `Makefile` for running tasks.
 
