@@ -34,17 +34,13 @@
 
 </div>
 
+How to setup:
 
-## Features
-> About this template project
+1. Add this project to your repos with the template button above (no need to fork).
+2. Go to your repo's _Settings_ and enable _GitHub Pages_.
+3. After a few seconds, open your site deployed at `MyUsername.github.io/preact-frontend-quickstart`.
 
-- Made with Vue 3.
-- Served as HTML and JS static assets.
-- Uses ESModules so you can use `import` syntax.
-- No build step needed.
-- No need for Node or Vue CLI.
-- No need for `package.json` or other JS configs.
-- Hosted with GitHub Pages for free.
+If you want to run the web app locally, just start a static server in the repo root. See recommended server options in this [gist](https://gist.github.com/MichaelCurrin/1a6116a4e0918c8468dc7e1a701a5f95).
 
 
 ## What is Vue?
@@ -60,9 +56,40 @@ Vue is similar to React, but many including myself believe that Vue is easier to
 See my [Resources](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/vue/) page to learn more about Vue.
 
 
-## Extending
+## About
+> More info on this project
 
-### Functionality
+### Structure
+
+This project only needs 3 files to run:
+
+- [index.html](/index.html) - homepage.
+- [main.js](/main.js) - the app logic. This loads dependencies, constructs the app and then mounts it on an element in the body.
+- [styles.css](/styles.css) - some minimal CSS styling, to match the Vue CLI quickstart.
+
+The [assets](/assets/) directory was setup with a logo to match the Vue CLI quickstart, but you can delete that on your copy.
+
+### Features
+
+What you get with this project:
+
+- Made with Vue 3.
+- Easy serving and hosting.
+    - Serves as HTML and JS static assets.
+    - Start a local web server in the root.
+    - Hosted with GitHub Pages for free.
+- Uses ESModules so you can use `import` syntax.
+- Simple and light project.
+    - No build step needed.
+    - No need for Node or Vue CLI.
+    - No need for `package.json` or other JS configs.
+- Use this as a standalone project, or use it as a reference to add Vue to your site.
+
+
+## Extending
+> Ideas for what to do once with a project made from this template
+
+### Add functionality
 
 To make the app more interactive, see code samples in the [Getting Started](https://v3.vuejs.org/guide/introduction.html#getting-started) docs.
 
