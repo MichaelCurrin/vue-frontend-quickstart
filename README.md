@@ -34,8 +34,6 @@
 
 </div>
 
-To extend the app and make it more interactive, see code samples in the [Getting Started](https://v3.vuejs.org/guide/introduction.html#getting-started) docs.
-
 
 ## Features
 > About this template project
@@ -62,6 +60,19 @@ Vue is similar to React, but many including myself believe that Vue is easier to
 See my [Resources](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/vue/) page to learn more about Vue.
 
 
+## Extending
+
+### Functionality
+
+To make the app more interactive, see code samples in the [Getting Started](https://v3.vuejs.org/guide/introduction.html#getting-started) docs.
+
+### Components
+
+To load components on the frontend as `.vue` files, see my [No build step](https://michaelcurrin.github.io/code-cookbook/recipes/javascript/packages/vue/no-build-step.html) guide. That also makes it easier to use scoped CSS.
+
+Though, if you have a couple of components or your entire site is Vue pages (compared with adding Vue to HTML), then consider structuring your application as a Vue Node app that uses Vue CLI for developing tooling and optimized production builds (like for compiling and minifying).
+
+
 ## Related projects
 
 More of my templates:
@@ -71,7 +82,14 @@ More of my templates:
 - [![MichaelCurrin - react-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-quickstart) - React with a CLI.
 
 
-## Developer notes
+## Development
+> Notes for developers
+
+### Structure
+
+This project deviates from the typical Vue CLI quickstart app. Part of the intention here is to show to add Vue to an existing site - so some content has been added directly to [index.html](/index.html) outside of the app. The CSS has been adjusted to be on `body` not `#app`.
+
+A better setup for this project would be showing how to use some components like todo app or counter. And not necessarily in `app`. These could be on more targeted IDs. Need to research this approach as it is different from setting up a single app as entry-point.
 
 ### Formatting
 
@@ -80,7 +98,7 @@ There is no `package.json` or use of Prettier.
 But you can run Prettier ad hoc like this to format the JS file, assuming you have Node installed.
 
 ```sh
-$ npx prettier -w main.js
+$ npx prettier -w '*.{js,css}'
 ```
 
 ### Vue
