@@ -8,6 +8,16 @@
 [![Hosted with GH Pages](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://pages.github.com/)
 
 
+<div align="center">
+    <a href="https://vuejs.org">  
+        <img src="https://raw.githubusercontent.com/github/explore/master/topics/vue/vue.png"
+             alt="vue icon"
+             title="Vue.js"
+             width="150" height="150" />
+    </a>
+</div>
+
+
 ## Preview
 
 <div align="center">
