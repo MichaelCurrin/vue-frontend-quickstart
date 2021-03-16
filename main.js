@@ -6,7 +6,11 @@ const app = createApp({
       name: "Vue developer",
     };
   },
-  template: "<p>Hello, {{ name }}!</p>",
+  template: `
+    <a href="https://github.com/MichaelCurrin/vue-frontend-quickstart"><img src="https://img.shields.io/static/v1?label=MichaelCurrin&amp;message=vue-frontend-quickstart&amp;color=blue&amp;logo=github" alt="MichaelCurrin - vue-frontend-quickstart"></a>
+
+    <p>Hello, {{ name }}!</p>
+  `,
 });
 
-app.mount("#main");
+app.mount("#app");
