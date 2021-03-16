@@ -117,14 +117,7 @@ If you have a site with a small amount of JS code and files, then using this fro
 
 If you have a larger project, consider using the Vue CLI approch as covered in [Related projects](#related-projects).
 
-If you want to avoid structuring your project as a Node project but you want some production-optimization, consider using [Deno](https://deno.land/). 
-
-- Deno replaces Node. 
-- No need for `package.json`.
-- Deno can be used to format and lint code - no external dependencies needed.
-- Deno can be used to bundle multiple JS files, without installing Webpack. You may run into complexity with adding support for `.vue` files though, as Deno doesn't support them. Or you need to restructure your components and views as `.js` files.
-- Deno doesn't support minification. But `npx esbuild --minify ...` is a great choice that is modern and performant.
-- But you'll probably want something like `make` and `Makefile` for running tasks.
+If you want to avoid structuring your project as a Node project but you want some production-optimization, consider using [Deno](https://deno.land/). See tips for [Migrating from Node to Deno](https://michaelcurrin.github.io/dev-resources/resources/javascript/deno/).
 
 
 ## Related projects
