@@ -8,17 +8,8 @@
 [![Hosted with GH Pages](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://pages.github.com/)
 
 
-<div align="center">
-    <a href="https://vuejs.org">  
-        <img src="https://raw.githubusercontent.com/github/explore/master/topics/vue/vue.png"
-             alt="vue icon"
-             title="Vue.js"
-             width="100" height="100" />
-    </a>
-</div>
-
-
 ## Preview
+> What the web app looks like locally or on GH Pages
 
 <div align="center">
     <a href="https://michaelcurrin.github.io/vue-frontend-quickstart/">
@@ -28,6 +19,7 @@
 
 
 ## Online demo
+> See this template's live demo
 
 <div align="center">
 
@@ -37,6 +29,7 @@
 
 
 ## Use this project
+> Create your own project based on this template
 
 <div align="center">
 
@@ -54,6 +47,15 @@ If you want to run the web app locally, just start a static server in the repo r
 
 
 ## What is Vue?
+
+<div align="center">
+    <a href="https://vuejs.org">  
+        <img src="https://raw.githubusercontent.com/github/explore/master/topics/vue/vue.png"
+             alt="vue icon"
+             title="Vue.js"
+             width="100" height="100" />
+    </a>
+</div>
 
 Vue is "The Progressive Frontend Framework".
 
