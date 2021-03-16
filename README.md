@@ -62,10 +62,21 @@ Vue is similar to React, but many including myself believe that Vue is easier to
 See my [Resources](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/vue/) page to learn more about Vue.
 
 
-
 ## Developer notes
 
-Browse builds available:
+### Formatting
+
+There is no `package.json` or use of Prettier.
+
+But you can run Prettier ad hoc like this to format the JS file, assuming you have Node installed.
+
+```sh
+$ npx prettier -w main.js
+```
+
+### Vue
+
+Browse builds available from Unpkg CDN:
 
 - https://unpkg.com/browse/vue@3.0.7/dist/
 
