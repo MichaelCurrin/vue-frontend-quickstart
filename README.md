@@ -99,6 +99,21 @@ To load components on the frontend as `.vue` files, see my [No build step](https
 
 Though, if you have a couple of components or your entire site is Vue pages (compared with adding Vue to HTML), then consider structuring your application as a Vue Node app that uses Vue CLI for developing tooling and optimized production builds (like for compiling and minifying).
 
+### Optimize
+
+If you have a site with a small amount of JS code and files, then using this frontend approach might suit you fine. You won't get much benefit out of bundling and minfiying your scripts if the volume is small. Though maybe you'll get a benefit out of bundling external Vue code in your own bundle.
+
+If you have a larger project, consider using the Vue CLI approch as covered in [Related projects](#related-projects).
+
+If you want to avoid structuring your project as a Node project but you want some production-optimization, consider using [Deno](https://deno.land/). 
+
+- Deno replaces Node. 
+- No need for `package.json`.
+- Deno can be used to format and lint code - no external dependencies needed.
+- Deno can be used to bundle multiple JS files, without installing Webpack. You may run into complexity with adding support for `.vue` files though, as Deno doesn't support them.
+- Deno doesn't support minification. But `npx esbuild --minify ...` is a great choice that is modern and performant.
+- But you'll probably want something like `make` and `Makefile` for running tasks.
+
 
 ## Related projects
 
@@ -128,7 +143,7 @@ But you can run Prettier ad hoc like this to format the JS file, assuming you ha
 $ npx prettier -w '*.{js,css}'
 ```
 
-### Vue
+### Vue source
 
 Browse builds available from Unpkg CDN:
 
