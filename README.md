@@ -1,6 +1,6 @@
 <div align="center">
 
-Vue Frontend Quickstart
+# Vue Frontend Quickstart
 > Starter template for a Vue site - without Node
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vue-frontend-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/vue-frontend-quickstart/releases/)
