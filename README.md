@@ -1,5 +1,3 @@
-<div align="center">
-
 # Vue Frontend Quickstart
 > Starter template for a Vue site - without Node
 
@@ -8,8 +6,6 @@
 
 [![dependency - vue](https://img.shields.io/badge/dependency-vue-blue?logo=vue.js&logoColor=white)](https://www.npmjs.com/package/vue)
 [![Hosted with GH Pages](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://pages.github.com/)
-
-</div>
 
 
 ## Preview
@@ -74,6 +70,19 @@ See my [Resources](https://michaelcurrin.github.io/dev-resources/resources/javas
 
 ## About
 > More info on this project
+
+### Overview
+
+A simple project that uses Vue on the frontend, without using Node or a build step. 
+
+Just an HTML page and a JS file which gets loaded on the frontend. Using ESModules here means libraries are loaded in JS using `import` syntax instead of with `src` tags in HTML.
+
+If you want a multi-page site, add Vue Router or use multiple HTML pages or Jekyll templating.
+
+If you want the dev tooling (for linting, minification and using `.vue` files) or have a large site, then a traditional Node and NPM approach to Vue might suit you better.
+
+- [![MichaelCurrin - vue-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-quickstart)
+
 
 ### Structure
 
