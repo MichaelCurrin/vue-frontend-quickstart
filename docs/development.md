@@ -4,9 +4,9 @@
 
 ## Structure
 
-This project deviates from the typical Vue CLI quickstart app. Part of the intention here is to show to add Vue to an existing site - so some content has been added directly to [index.html](/index.html) outside of the app. The CSS has been adjusted to be on `body` not `#app`.
+This project deviates from the typical Vue CLI quickstart app. Part of the intention here is to show to add Vue to an existing HTML page without rewriting the site as a Node app.
 
-A better setup for this project would be showing how to use some components like todo app or counter. And not necessarily in `app`. These could be on more targeted IDs. Need to research this approach as it is different from setting up a single app as entry-point.
+Some content has been added directly to [index.html](/index.html) outside of the app, since it is fixed and improves the loading experience of app. And therefore the CSS has been adjusted to be on `body` and not `#app`.
 
 
 ## Formatting
