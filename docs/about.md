@@ -45,7 +45,7 @@ What you get with this project:
 This project only needs 3 files to run:
 
 - [index.html](/index.html) - homepage.
-- [main.js](/main.js) - the app logic. This loads dependencies, constructs the app and then mounts it on an element in the body. The demo components are based on the [Introduction](https://v3.vuejs.org/guide/introduction.html) tutorial on the Vue 3 docs.
+- [main.js](/main.js) - the app logic. This loads dependencies, constructs the app and then mounts it on an element in the body. The demo components are based on the [Introduction](https://v3.vuejs.org/guide/introduction.html) tutorial on the Vue 3 docs. But without IDs - as those are for the app level rather than reusable component level.
 - [styles.css](/styles.css) - some minimal CSS styling, to match the Vue CLI quickstart.
 
 The [assets](/assets/) directory was setup with a logo to match the Vue CLI quickstart, but you can delete that on your copy.
