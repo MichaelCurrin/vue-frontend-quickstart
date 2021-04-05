@@ -2,7 +2,7 @@ import { createApp } from "https://unpkg.com/vue@3.0.7/dist/vue.esm-browser.js";
 
 const Counter = {
   template: `
-    <div id="counter">
+    <div>
       Counter: {{ counter }}
     </div>
   `,
@@ -30,7 +30,7 @@ const EventHandling = {
     },
   },
   template: `
-    <div id="event-handling">
+    <div>
       <p>{{ message }}</p>
       <button v-on:click="reverseMessage">Reverse Message</button>
     </div>
@@ -44,7 +44,7 @@ const TwoWayBinding = {
     };
   },
   template: `
-    <div id="two-way-binding">
+    <div>
       <p>{{ message }}</p>
       <input v-model="message" />
     </div>
@@ -68,13 +68,9 @@ const TodoList = {
     };
   },
   template: `
-    <div id="todo-list-app">
+    <div>
       <ol>
-        <todo-item
-          v-for="item in groceryList"
-          v-bind:todo="item"
-          v-bind:key="item.id"
-        ></todo-item>
+        <todo-item v-for="item in groceryList" v-bind:todo="item"   v-bind:key="item.id"></todo-item>
       </ol>
     </div>
   `,
