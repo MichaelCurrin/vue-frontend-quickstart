@@ -11,15 +11,15 @@ Some content has been added directly to [index.html](/index.html) outside of the
 
 ## Formatting
 
-There is no `package.json`, so Prettier is not setup as a dependency.
+There is no `package.json`, so Prettier is not setup as a dependency. But you can run Prettier ad hoc as below, assuming you have Node and `make` installed.
 
-But you can run Prettier ad hoc as below, assuming you have Node installed. This will format the JS and CSS file.
+This will format the JS and CSS files:
 
 ```sh
-$ npx prettier -w '*.{js,css}'
+$ make fmt
 ```
 
-Avoid using on the HTML file because it indents `head` and `body` tags, so use your IDE formatter for that.
+Avoid using that on the HTML file because it indents `head` and `body` tags, so use your IDE formatter for that.
 
 
 ## Vue source
