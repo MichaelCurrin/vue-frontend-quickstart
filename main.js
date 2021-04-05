@@ -1,4 +1,5 @@
 import { createApp } from "https://unpkg.com/vue@3.0.7/dist/vue.esm-browser.js";
+import ConsumeApi from "./ConsumeApi.js";
 
 const Counter = {
   template: `
@@ -82,6 +83,7 @@ const app = createApp({
     EventHandling,
     TwoWayBinding,
     TodoList,
+    ConsumeApi,
   },
   data() {
     return {
@@ -103,6 +105,9 @@ const app = createApp({
 
     <h2>Todo list</h2>
     <TodoList></TodoList>
+
+    <h2>Consume API</h2>
+    <ConsumeApi></ConsumeApi>
   `,
 });
 
