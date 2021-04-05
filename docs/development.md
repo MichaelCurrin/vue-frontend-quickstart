@@ -11,13 +11,15 @@ A better setup for this project would be showing how to use some components like
 
 ## Formatting
 
-There is no `package.json` or use of Prettier.
+There is no `package.json`, so Prettier is not setup as a dependency.
 
-But you can run Prettier ad hoc like this to format the JS file, assuming you have Node installed.
+But you can run Prettier ad hoc as below, assuming you have Node installed. This will format the JS and CSS file.
 
 ```sh
 $ npx prettier -w '*.{js,css}'
 ```
+
+Avoid using on the HTML file because it indents `head` and `body` tags, so use your IDE formatter for that.
 
 
 ## Vue source
@@ -34,4 +36,3 @@ Using `vue.runtime.esm-browser.js` gave an error:
     at <App> vue.runtime.esm-browser.js:1186:17
 
 Also, I tried using JSPM for CDN but gave errors importing Vue - switching to unpkg with ESModule type was fine.
-
