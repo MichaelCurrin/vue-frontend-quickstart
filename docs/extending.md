@@ -16,9 +16,10 @@ Though, if you have a couple of components or your entire site is Vue pages (com
 
 ## Optimize
 
-If you have a site with a small amount of JS code and files, then using this frontend approach might suit you fine. You won't get much benefit out of bundling and minfiying your scripts if the volume is small. Though maybe you'll get a benefit out of bundling external Vue code in your own bundle.
+If you have a site with a small amount of JS code and files, then using this frontend approach might suit you fine. You won't get much benefit out of bundling and minifying your scripts if the volume is small. Though maybe you'll get a benefit out of bundling external Vue code in your own bundle.
 
-If you have a larger project, consider using the Vue CLI approch as covered in [Related projects](#related-projects).
+For a production app, add the following to the URL when loading Vue: `.prod.js`.
+
+If you have a larger project, consider using the Vue CLI approach as covered in [Related projects](#related-projects).
 
 If you want to avoid structuring your project as a Node project but you want some production-optimization, consider using [Deno](https://deno.land/). See tips for [Migrating from Node to Deno](https://michaelcurrin.github.io/dev-resources/resources/javascript/deno/).
-
