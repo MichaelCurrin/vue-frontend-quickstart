@@ -32,12 +32,14 @@ What you get with this project:
     - Serves as HTML and JS static assets.
     - Start a local web server in the root.
     - Hosted with GitHub Pages for free.
-- Uses ESModules so you can use `import` syntax.
+- Uses [ES Modules][] so you can use `import` syntax.
 - Simple and light project.
     - No build step needed.
     - No need for Node or Vue CLI.
     - No need for `package.json` or other JS configs.
 - Use this as a standalone project, or use it as a reference to add Vue to your site.
+
+[ES Modules]: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/general/modules/es-modules.html
 
 
 ## Structure
