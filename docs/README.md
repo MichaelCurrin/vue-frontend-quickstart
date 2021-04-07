@@ -2,7 +2,9 @@
 
 A simple project that uses Vue on the frontend, without using Node or a build step. 
 
-Just an HTML page and a JS file which gets loaded on the frontend. Using ESModules here means libraries are loaded in JS using `import` syntax instead of with `src` tags in HTML.
+Just an HTML page and a JS file which gets loaded on the frontend. Using [ES Modules][] here means libraries are loaded in JS using `import` syntax instead of with `src` tags in HTML.
+
+[ES Modules]: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/general/modules/es-modules.html
 
 If you want a multi-page site, add Vue Router or use multiple HTML pages or Jekyll templating.
 
