@@ -71,7 +71,7 @@ const TodoList = {
   template: `
     <div>
       <ol>
-        <todo-item v-for="item in groceryList" v-bind:todo="item"   v-bind:key="item.id"></todo-item>
+        <todo-item v-for="item in groceryList" v-bind:todo="item" v-bind:key="item.id"></todo-item>
       </ol>
     </div>
   `,
