@@ -1,3 +1,12 @@
+/**
+ * Consume API module.
+ *
+ * This file exists to show how the main.js loaded on the frontend will then
+ * fetch this file and import it. So your "import" statements work in the browser
+ * and not just in Node apps. This means you can spread your Vue components or views
+ * out across a few files - at the cost of loading each file separately rather than
+ * a single bundled (and possibly minified) file.
+ */
 const PRICES_API_URL = "https://api.coindesk.com/v1/bpi/currentprice.json";
 
 const ConsumeApi = {
