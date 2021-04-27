@@ -4,7 +4,7 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vue-frontend-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/vue-frontend-quickstart/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
-[![dependency - vue](https://img.shields.io/badge/dependency-vue-blue?logo=vue.js&logoColor=white)](https://www.npmjs.com/package/vue)
+[![dependency - vue](https://img.shields.io/badge/vue-3-blue?logo=vue.js&logoColor=white)](https://www.npmjs.com/package/vue)
 [![Hosted with GH Pages](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://pages.github.com/)
 
 
