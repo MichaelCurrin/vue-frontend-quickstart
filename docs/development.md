@@ -9,19 +9,6 @@ This project deviates from the typical Vue CLI quickstart app. Part of the inten
 Some content has been added directly to [index.html](/index.html) outside of the app, since it is fixed and improves the loading experience of app. And therefore the CSS has been adjusted to be on `body` and not `#app`.
 
 
-## Formatting
-
-There is no `package.json`, so Prettier is not setup as a dependency. But you can run Prettier ad hoc as below, assuming you have Node and `make` installed.
-
-This will format the JS and CSS files:
-
-```sh
-$ make fmt
-```
-
-Avoid using that on the HTML file because it indents `head` and `body` tags, so use your IDE formatter for that.
-
-
 ## Vue source
 
 Browse builds available from Unpkg CDN:
