@@ -52,11 +52,12 @@ A Vue frontend project only needs 3 files to run, as set up in this template:
 
 - [index.html](/index.html)
     - HTML homepage.
+    - Loads the JS and CSS.
 - [main.js](/main.js)
-    - The app logic in JS.
+    - The app logic in a JS script.
     - This loads dependencies, constructs the app and then mounts it on an element in the body. The demo components are based on the [Introduction](https://v3.vuejs.org/guide/introduction.html) tutorial on the Vue 3 docs. But without IDs - as those are for the app level rather than reusable component level.
 - [styles.css](/styles.css)
-    - Some minimal CSS styling, to match the Vue CLI quickstart.
+    - Some minimal CSS styling, to match the Vue CLI quickstart app.
 
 ### Logo
 
