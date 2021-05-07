@@ -16,9 +16,7 @@ See [package.json](https://github.com/MichaelCurrin/vue-quickstart/blob/master/p
 
 ## Dev tooling
 
-To prettify your JS, you can run `npx prettier` (to reference a global install or to download the latest). Or use your IDE to prettify your script. Same for linting.
-
-And the same for ES Lint with `npx eslint`
+To prettify your JS, you can run `npx prettier -w .` (to reference a global install or to download the latest). Or use your IDE to prettify your script. You cna do the same for linting with `npx eslint .` or you IDE.
 
 If you want the dev tooling you're used to (like for linting, minification and using `.vue` files), or have a large site, then a traditional Node and NPM approach to Vue might suit your needs better. In that case, use this repo:
 
