@@ -1,5 +1,7 @@
 # Vue Frontend Quickstart
-> Starter template for a Vue site - without Node or a build step
+> Starter template for a Vue 3 site - without Node or a build step
+
+<!-- Badges generated with: https://michaelcurrin.github.io/badge-generator/ -->
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vue-frontend-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/vue-frontend-quickstart/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
