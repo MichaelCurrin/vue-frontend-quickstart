@@ -30,7 +30,7 @@ const ConsumeApi = {
 
     <section v-if="errored">
       <p>
-        We're sorry, we're not able to retrieve this information at the moment, please try back later
+        We're sorry, we're unable to retrieve this information at the moment, please try again later
       </p>
     </section>
 
