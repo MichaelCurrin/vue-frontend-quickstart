@@ -1,5 +1,7 @@
 /**
  * Consume API module.
+ *
+ * Demo to show consuming an API endpoint, including handling the display loading and error states.
  */
 const PRICES_API_URL = "https://api.coindesk.com/v1/bpi/currentprice.json";
 
