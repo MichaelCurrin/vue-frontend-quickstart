@@ -38,7 +38,7 @@ const EventHandling = {
       <p>
         {{ message }}
       </p>
-      
+
       <button v-on:click="reverseMessage">
         Reverse Message
       </button>
@@ -59,7 +59,7 @@ const TwoWayBinding = {
       </label>
       {{ }}
       <input id="message-input" type="text" v-model="message" />
-      
+
       <p>
         {{ message }}
       </p>
@@ -69,7 +69,7 @@ const TwoWayBinding = {
 
 const TodoItem = {
   props: {
-    todo: { type: String, required: true },
+    todo: { type: Object, required: true },
   },
   template: `<li>{{ todo.text }}</li>`,
 };
