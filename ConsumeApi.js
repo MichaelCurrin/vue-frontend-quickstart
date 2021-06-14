@@ -28,7 +28,7 @@ const ConsumeApi = {
       } finally {
         this.loading = false;
       }
-    }
+    },
   },
   mounted() {
     this.requestApi();

@@ -69,7 +69,7 @@ const TwoWayBinding = {
 
 const TodoItem = {
   props: {
-    "todo": {type: String, required: true}
+    todo: { type: String, required: true },
   },
   template: `<li>{{ todo.text }}</li>`,
 };
