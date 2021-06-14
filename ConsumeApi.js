@@ -14,19 +14,20 @@ const ConsumeApi = {
     };
   },
   methods: {
-   async requestApi() {
-     try {
-      const resp = await fetch(PRICES_API_URL);
-      if (!resp.ok) {
-        throw new Error(`${resp.status} - ${resp.statusText}`);
+    async requestApi() {
+      try {
+        const resp = await fetch(PRICES_API_URL);
+        if (!resp.ok) {
+          throw new Error(`${resp.status} - ${resp.statusText}`);
+        }
+        const data = await resp.json();
+        this.info = data.bpi;
+      } catch (err) {
+        console.error(`Unable to fetch currency data. Error: ${err}`);
+        this.errored = true;
+      } finally {
+        this.loading = false;
       }
-      const data = await resp.json();
-      this.info = data.bpi;
-    } catch (err) {
-      console.error(`Unable to fetch currency data. Error: ${err}`);
-      this.errored = true;
-    } finally {
-      this.loading = false;
     }
   },
   mounted() {
