@@ -13,9 +13,13 @@ const ConsumeApi = {
       errored: false,
     };
   },
-  async mounted() {
-    try {
+  methods: {
+   requestApi() {
+     try {
       const resp = await fetch(PRICES_API_URL);
+      if (!resp.ok) {
+        throw new Error(`${resp.status} - ${resp.statusText}`);
+      }
       const data = await resp.json();
       this.info = data.bpi;
     } catch (err) {
@@ -24,6 +28,9 @@ const ConsumeApi = {
     } finally {
       this.loading = false;
     }
+  }
+  mounted() {
+    this.requestApi();
   },
   template: `
     <h3>Bitcoin Price Index</h3>
