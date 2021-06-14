@@ -35,8 +35,12 @@ const EventHandling = {
   },
   template: `
     <div>
-      <p>{{ message }}</p>
-      <button v-on:click="reverseMessage">Reverse Message</button>
+      <p>
+        {{ message }}
+      </p>
+      <button v-on:click="reverseMessage">
+        Reverse Message
+      </button>
     </div>
   `,
 };
@@ -49,7 +53,9 @@ const TwoWayBinding = {
   },
   template: `
     <div>
-      <p>{{ message }}</p>
+      <p>
+        {{ message }}
+      </p>
       <input v-model="message" />
     </div>
   `,
