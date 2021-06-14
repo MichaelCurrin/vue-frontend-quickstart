@@ -14,7 +14,7 @@ const ConsumeApi = {
     };
   },
   methods: {
-   requestApi() {
+   async requestApi() {
      try {
       const resp = await fetch(PRICES_API_URL);
       if (!resp.ok) {
