@@ -5,11 +5,6 @@ import { createApp } from "https://unpkg.com/vue@3.1.1/dist/vue.esm-browser.js";
 import ConsumeApi from "./ConsumeApi.js";
 
 const Counter = {
-  template: `
-    <div>
-      Counter: {{ counter }}
-    </div>
-  `,
   data() {
     return {
       counter: 0,
@@ -20,6 +15,11 @@ const Counter = {
       this.counter++;
     }, 1000);
   },
+  template: `
+    <div>
+      Counter: {{ counter }}
+    </div>
+  `,
 };
 
 const EventHandling = {
