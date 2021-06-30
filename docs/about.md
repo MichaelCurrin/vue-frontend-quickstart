@@ -53,10 +53,10 @@ A Vue frontend project only needs 3 files to run, as set up in this template:
 - [index.html](/index.html)
     - HTML homepage.
     - Loads the JS and CSS.
-- [main.js](/main.js)
+- [assets/js/main.js](/assets/js/main.js)
     - The app logic in a JS script.
     - This loads dependencies, constructs the app and then mounts it on an element in the body. The demo components are based on the [Introduction](https://v3.vuejs.org/guide/introduction.html) tutorial on the Vue 3 docs. But without IDs - as those are for the app level rather than reusable component level.
-- [styles.css](/styles.css)
+- [assets/css/styles.css](/assets/css/styles.css)
     - Some minimal CSS styling, to match the Vue CLI quickstart app.
 
 ### Logo
@@ -65,7 +65,7 @@ The [assets](/assets/) directory was set up with a logo, to match the structure 
 
 ### JS modules
 
-See also the [ConsumeApi.js](/ConsumeApi.js) module.
+See also the [assets/js/ConsumeApi.js](/assets/js/ConsumeApi.js) module.
 
 This file exists to show how the `main.js` file loaded on the frontend will then fetch another
 module and import it. So the `import` statements works on the frontend similarly to running in a
