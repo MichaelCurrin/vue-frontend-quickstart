@@ -12,3 +12,10 @@ body {
 header {
   padding: 25px;
 }
+
+button {
+  color: white;
+  background-color: #41b883;
+  font-size-adjust: 0.6;
+  padding: 10px;
+}
