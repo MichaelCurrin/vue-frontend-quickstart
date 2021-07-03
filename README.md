@@ -11,19 +11,19 @@
 
 
 ## Preview
-> What the web app looks like locally or on GH Pages
 
 <div align="center">
     <a href="https://michaelcurrin.github.io/vue-frontend-quickstart/">
-        <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
+        <img src="/sample.png" alt="Sample screenshot" title="Go to web app" width="400" />
+        <br>
+        <br>
+        <img src="https://img.shields.io/badge/View_site-GH_Pages-blue?style=for-the-badge" alt="View site - GH Pages"></a>
     </a>
 </div>
 
 <br>
-
+    
 <div align="center">
-
-[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-blue?style=for-the-badge)](https://michaelcurrin.github.io/vue-frontend-quickstart/)
 
 [![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vue-frontend-quickstart/generate)
 
