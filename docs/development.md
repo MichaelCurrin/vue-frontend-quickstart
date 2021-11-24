@@ -23,3 +23,18 @@ Using `vue.runtime.esm-browser.js` gave an error:
     at <App> vue.runtime.esm-browser.js:1186:17
 
 Also, I tried using JSPM for CDN but gave errors importing Vue - switching to unpkg with ESModule type was fine.
+
+
+
+## Dev tooling
+
+To prettify your JS, you can run `npx prettier -w .` (to reference a global install or to download the latest). Or use your IDE to prettify your script. You can do the same for linting with `npx eslint .` or you IDE.
+
+Maybe you want the dev tooling you're used to (linting, minification, using `.vue` files, running tests, TypeScript). Or have a large site. Then a traditional Node and NPM approach to Vue might suit your needs better. In that case, use this repo:
+
+- [![MichaelCurrin - vue-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-quickstart)
+
+
+## Multi-page
+
+If you want a multi-page site, add Vue Router or use multiple HTML pages or Jekyll templating.
