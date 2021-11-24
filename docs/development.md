@@ -11,11 +11,18 @@ Some content has been added directly to [index.html](/index.html) outside of the
 
 ## Vue source
 
-Browse builds available from Unpkg CDN:
+Find the latest Vue releases:
 
-- https://unpkg.com/browse/vue@3.0.7/dist/
+- https://github.com/vuejs/vue-next/releases
 
-The `vue.esm-browser.js` build was selected - for ESModule load in the browser including a template compiler.
+Then update the [main.js](/assets/js/main.js) script with your version.
+
+Browse the available builds on Unpkg CDN for a target version e.g.
+
+- `3.0.7` - https://unpkg.com/browse/vue@3.0.7/dist/
+- `3.2` - https://unpkg.com/browse/vue@3.2/dist/ (redirects to `3.2.2` or similar)
+
+The `vue.esm-browser.js` build was selected for this project - to get ES Module to load in the browser and because it includes a template compiler which is needed on the frontend.
 
 Using `vue.runtime.esm-browser.js` gave an error:
 
@@ -23,7 +30,6 @@ Using `vue.runtime.esm-browser.js` gave an error:
     at <App> vue.runtime.esm-browser.js:1186:17
 
 Also, I tried using JSPM for CDN but gave errors importing Vue - switching to unpkg with ESModule type was fine.
-
 
 
 ## Dev tooling
