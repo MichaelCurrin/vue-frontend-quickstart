@@ -42,6 +42,12 @@ Maybe you want the dev tooling you're used to (linting, minification, using `.vu
 - [![MichaelCurrin - vue-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-quickstart)
 
 
-## Multi-page
+## Multi-page site
 
-If you want a multi-page site, add Vue Router or use multiple HTML pages or Jekyll templating.
+If you want a multi-page site, you can still do this with the frontend-only approach (i.e. no Node).
+
+Some ideas:
+
+- Add Vue Router.
+- Use multiple HTML pages, each with a different app to mount.
+- Use a static site generator like Jekyll or Hugo to generate your HTML pages.
