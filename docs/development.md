@@ -8,6 +8,7 @@ This project deviates from the typical Vue CLI quickstart app. Part of the inten
 
 Some content has been added directly to [index.html](/index.html) outside of the app, since it is fixed and improves the loading experience of app. And therefore the CSS has been adjusted to be on `body` and not `#app`.
 
+See [About](about.md) for more info on the template's structure.
 
 ## Vue source
 
