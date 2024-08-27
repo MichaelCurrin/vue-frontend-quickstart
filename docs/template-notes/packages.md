@@ -1,12 +1,12 @@
 # Packages
 
-[ES Modules][] are used in this project, which means packages are loaded in JS in the browser, using `import` syntax. 
+[ES Modules][] are used in this project, which means packages are loaded in JS in the browser, using `import` syntax.
 
-You don't have to check that `src` tags in HTML are adding stuff to the global namespace for your JS scripts to manage, rather you import a package in a script right where it gets used. No HTML needed to validate.
+You don't have to check that `src` tags in HTML are adding stuff to the global namespace for your JS scripts to manage, instead you can import a package in a script right where it gets used. No HTML that needs validation.
 
 There is no `package.json` for package management and `node_modules` to download and host.
 
-There are no dev dependencies to manage too, which makes means fewer security vulnerabilities to patch and a smaller dependency tree to manage.
+There are also no dev dependencies to manage, which makes means fewer security vulnerabilities to patch and a smaller dependency tree to manage.
 
 See [vue-quickstart package.json][] in my Node-based Vue Quickstart and you'll see how package management is lighter.
 

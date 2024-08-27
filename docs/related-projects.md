@@ -2,6 +2,8 @@
 
 ## Frontend only
 
+These do not need Node at all.
+
 - [![MichaelCurrin - primevue-frontend-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=primevue-frontend-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-frontend-quickstart)
     - PrimeVue without Node quickstart.
 - [![MichaelCurrin - react-frontend-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-frontend-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-frontend-quickstart)
@@ -11,6 +13,8 @@
 
 
 ## Node
+
+These have a build step with Node.
 
 - [![MichaelCurrin - vue-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-quickstart)
     - Vue with Node quickstart.
